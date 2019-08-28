@@ -50,4 +50,18 @@ export class EntityAdapter {
 
     return newState;
   }
+
+  /**
+   * Remove all entities
+   * @param state
+   * @returns {*}
+   */
+  removeAll(state) {
+    const newState = cloneDeep(state);
+
+    newState.ids = [];
+    newState.entities = {};
+
+    return newState;
+  }
 }
