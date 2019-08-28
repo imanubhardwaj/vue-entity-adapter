@@ -1,3 +1,5 @@
+import { cloneDeep } from 'lodash';
+
 /**
  * Class to manipulate entities
  */
@@ -16,5 +18,20 @@ export class EntityAdapter {
       ids: this.ids,
       entities: this.entities
     }
+  }
+
+  /**
+   * Add one entity
+   * @param element
+   * @param state
+   * @returns {*}
+   */
+  addOne(element, state) {
+    const newState = cloneDeep(state);
+
+    newState.ids.push(element.id);
+    newState.entities[element.id] = element;
+
+    return newState;
   }
 }
