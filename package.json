@@ -1,0 +1,31 @@
+{
+  "name": "vue-entity-adapter",
+  "version": "1.0.0",
+  "description": "Package to maintain entities for vuex.",
+  "private": false,
+  "scripts": {
+    "start": "yarn build && node dist/bundle.js",
+    "build": "webpack --config webpack.config.js",
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imanubhardwaj/entity-adapter.git"
+  },
+  "author": "Manu Bhardwaj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imanubhardwaj/vue-entity-adapter/issues"
+  },
+  "homepage": "https://github.com/imanubhardwaj/vue-entity-adapter#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "babel-esm-plugin": "^0.4.0",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-add-module-exports": "^1.0.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "dependencies": {}
+}
