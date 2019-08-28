@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/imanubhardwaj/entity-adapter.git"
+    "url": "git+https://github.com/imanubhardwaj/vue-entity-adapter.git"
   },
   "author": "Manu Bhardwaj",
   "license": "ISC",
