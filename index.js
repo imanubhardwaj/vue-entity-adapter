@@ -84,6 +84,22 @@ export class EntityAdapter {
   }
 
   /**
+   * Remove many entities
+   * @param ids
+   * @param state
+   * @returns {*}
+   */
+  removeMany(ids, state) {
+    const newState = cloneDeep(state);
+
+    for (const id of ids) {
+      this.removeOne(id, newState);
+    }
+
+    return newState;
+  }
+
+  /**
    * Remove all entities
    * @param state
    * @returns {*}
