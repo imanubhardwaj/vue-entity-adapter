@@ -112,4 +112,20 @@ export class EntityAdapter {
 
     return newState;
   }
+
+  /**
+   * Update many entities
+   * @param update
+   * @param state
+   * @returns {*}
+   */
+  updateMany(updates, state) {
+    const newState = cloneDeep(state);
+
+    for (const update of updates) {
+      this.updateOne(update, newState);
+    }
+
+    return newState;
+  }
 }
