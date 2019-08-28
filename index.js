@@ -146,4 +146,24 @@ export class EntityAdapter {
 
     return newState;
   }
+
+  /**
+   * Update entities if exist else Insert
+   * @param elements
+   * @param state
+   * @returns {*}
+   */
+  upsertMany(elements, state) {
+    const newState = cloneDeep(state);
+
+    for (const element of elements) {
+      if (element.id in newState.entities) {
+        this.updateOne({id: element.id, changes: element}, newState);
+      } else {
+        this.addOne(element, newState);
+      }
+    }
+
+    return newState;
+  }
 }
