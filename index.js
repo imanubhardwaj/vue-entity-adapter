@@ -34,4 +34,20 @@ export class EntityAdapter {
 
     return newState;
   }
+
+  /**
+   * Add multiple entities
+   * @param elements
+   * @param state
+   * @returns {*}
+   */
+  addMany(elements, state) {
+    let newState = cloneDeep(state);
+
+    for (const element of elements) {
+      newState = this.addOne(element, newState);
+    }
+
+    return newState;
+  }
 }
