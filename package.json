@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Package to maintain entities for vuex.",
   "private": false,
+  "keywords": ["Vue", "Vuex", "State Management", "Entity Adapter", "Flux"],
   "scripts": {
     "start": "yarn build && node dist/bundle.js",
     "build": "webpack --config webpack.config.js",
