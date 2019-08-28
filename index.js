@@ -49,6 +49,15 @@ export class EntityAdapter {
   }
 
   /**
+   * Get entities' id
+   * @param state
+   * @returns {number[]}
+   */
+  getIds(state) {
+    return state.ids;
+  }
+
+  /**
    * Add one entity
    * @param element
    * @param state
