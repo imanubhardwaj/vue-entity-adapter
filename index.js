@@ -127,10 +127,10 @@ export class EntityAdapter {
    * @returns {*}
    */
   removeMany(ids, state) {
-    const newState = cloneDeep(state);
+    let newState = cloneDeep(state);
 
     for (const id of ids) {
-      this.removeOne(id, newState);
+      newState = this.removeOne(id, newState);
     }
 
     return newState;
@@ -173,10 +173,10 @@ export class EntityAdapter {
    * @returns {*}
    */
   updateMany(updates, state) {
-    const newState = cloneDeep(state);
+    let newState = cloneDeep(state);
 
     for (const update of updates) {
-      this.updateOne(update, newState);
+      newState = this.updateOne(update, newState);
     }
 
     return newState;
@@ -189,12 +189,12 @@ export class EntityAdapter {
    * @returns {*}
    */
   upsertOne(element, state) {
-    const newState = cloneDeep(state);
+    let newState = cloneDeep(state);
 
     if (element.id in newState.entities) {
-      this.updateOne({id: element.id, changes: element}, newState);
+      newState = this.updateOne({id: element.id, changes: element}, newState);
     } else {
-      this.addOne(element, newState);
+      newState = this.addOne(element, newState);
     }
 
     return newState;
@@ -207,14 +207,10 @@ export class EntityAdapter {
    * @returns {*}
    */
   upsertMany(elements, state) {
-    const newState = cloneDeep(state);
+    let newState = cloneDeep(state);
 
     for (const element of elements) {
-      if (element.id in newState.entities) {
-        this.updateOne({id: element.id, changes: element}, newState);
-      } else {
-        this.addOne(element, newState);
-      }
+      newState = this.upsertOne(element, newState);
     }
 
     return newState;
