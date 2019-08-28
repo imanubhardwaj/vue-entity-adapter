@@ -40,6 +40,15 @@ export class EntityAdapter {
   }
 
   /**
+   * Get entities count
+   * @param state
+   * @returns {number}
+   */
+  getCount(state) {
+    return Object.keys(state.entities).length;
+  }
+
+  /**
    * Add one entity
    * @param element
    * @param state
