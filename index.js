@@ -31,6 +31,15 @@ export class EntityAdapter {
   }
 
   /**
+   * Get all entities
+   * @param state
+   * @returns {(*)[]}
+   */
+  getAll(state) {
+    return Object.keys(state.entities).map(key => state.entities[key]);
+  }
+
+  /**
    * Add one entity
    * @param element
    * @param state
