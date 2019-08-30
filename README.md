@@ -8,6 +8,10 @@ Reduces boilerplate for creating reducers that manage a collection of models.
 Provides performant CRUD operations for managing entity collections.
 Extensible type-safe adapters for selecting entity information.
 
+#### [Example](example)
+
+#### [Demo](https://vue-entity-adapter.manubhardwaj.in/)
+
 ## Installation
 Installing with *npm*
 
