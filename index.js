@@ -97,7 +97,7 @@ export class EntityAdapter {
   addAll(elements, state) {
     let newState = cloneDeep(state);
 
-    this.removeAll(newState);
+    newState = this.removeAll(newState);
     for (const element of elements) {
       newState = this.addOne(element, newState);
     }
