@@ -4,7 +4,8 @@ import { cloneDeep } from 'lodash';
  * Class to manipulate entities
  */
 export class EntityAdapter {
-  constructor() {
+  constructor(sortFn = undefined) {
+    this.sortFn = sortFn;
     this.ids = [];
     this.entities = {};
   }
@@ -36,7 +37,7 @@ export class EntityAdapter {
    * @returns {(*)[]}
    */
   getAll(state) {
-    return Object.keys(state.entities).map(key => state.entities[key]);
+    return Object.keys(state.entities).map(key => state.entities[key]).sort(this.sortFn);
   }
 
   /**
