@@ -14,7 +14,7 @@
     "url": "git+https://github.com/imanubhardwaj/vue-entity-adapter.git"
   },
   "author": "Manu Bhardwaj",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/imanubhardwaj/vue-entity-adapter/issues"
   },
