@@ -18,7 +18,7 @@ declare module 'vue-entity-adapter' {
 	export type Update<T> = UpdateStr<T> | UpdateNum<T>;
 
 	export class EntityAdapter<T> {
-		constructor(sortFn: Function);
+		constructor(sortFn?: Function);
 
 		public getInitialState(): EntityState<T>;
 		public getOne(id: string, state: EntityState<T>): T;
