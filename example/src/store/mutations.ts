@@ -14,7 +14,7 @@ import {
 import {State} from "@/models/state.model";
 import {Lesson} from "@/models/lessons.model";
 import {lessonsAdapter} from "@/store";
-import {Update} from "vue-entity-adapter";
+import {Update} from "vue-entity-adapter-plus";
 
 export default {
 	[ADD_LESSON_MUTATION]: (state: State, payload: Lesson) => {

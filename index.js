@@ -1,4 +1,4 @@
-import { cloneDeep } from 'lodash';
+import { cloneDeep } from "lodash";
 
 /**
  * Class to manipulate entities
@@ -17,8 +17,8 @@ export class EntityAdapter {
   getInitialState() {
     return {
       ids: this.ids,
-      entities: this.entities
-    }
+      entities: this.entities,
+    };
   }
 
   /**
@@ -37,7 +37,9 @@ export class EntityAdapter {
    * @returns {(*)[]}
    */
   getAll(state) {
-    return Object.keys(state.entities).map(key => state.entities[key]).sort(this.sortFn);
+    return this.sortFn
+      ? Object.keys(state.entities).map((key) => state.entities[key]).sort(this.sortFn)
+      : Object.keys(state.entities).map((key) => state.entities[key]);
   }
 
   /**
@@ -116,7 +118,7 @@ export class EntityAdapter {
     const newState = cloneDeep(state);
 
     delete newState.entities[id];
-    newState.ids = newState.ids.filter(_id => _id !== id);
+    newState.ids = newState.ids.filter((_id) => _id !== id);
 
     return newState;
   }
@@ -193,7 +195,7 @@ export class EntityAdapter {
     let newState = cloneDeep(state);
 
     if (element.id in newState.entities) {
-      newState = this.updateOne({id: element.id, changes: element}, newState);
+      newState = this.updateOne({ id: element.id, changes: element }, newState);
     } else {
       newState = this.addOne(element, newState);
     }

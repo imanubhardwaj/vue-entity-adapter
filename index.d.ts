@@ -1,6 +1,6 @@
 /// <reference types="node" />
 
-declare module 'vue-entity-adapter' {
+declare module 'vue-entity-adapter-plus' {
 	export interface EntityState<T> {
 		ids: string[];
 		entities: T[];

@@ -16,7 +16,7 @@ import {
 	UPDATE_LESSONS_MUTATION, UPSERT_LESSON_ACTION, UPSERT_LESSON_MUTATION, UPSERT_LESSONS_ACTION, UPSERT_LESSONS_MUTATION
 } from "@/store/types";
 import {Lesson} from "@/models/lessons.model";
-import {Update} from "vue-entity-adapter";
+import {Update} from "vue-entity-adapter-plus";
 
 export default {
 	[ADD_LESSON_ACTION]: ({commit}: any, payload: Lesson) => {
