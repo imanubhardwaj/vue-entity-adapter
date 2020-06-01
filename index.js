@@ -38,8 +38,8 @@ export class EntityAdapter {
    */
   getAll(state) {
     return this.sortFn
-      ? Object.keys(state.entities).map((key) => state.entities[key]).sort(this.sortFn)
-      : Object.keys(state.entities).map((key) => state.entities[key]);
+      ? state.ids.map((id) => (state.entities)[id]).sort(this.sortFn)
+      : state.ids.map((id) => (state.entities)[id]);
   }
 
   /**
@@ -69,7 +69,9 @@ export class EntityAdapter {
   addOne(element, state) {
     const newState = cloneDeep(state);
 
-    newState.ids.push(element.id);
+    if(!newState.ids.includes(element.id)) {
+      newState.ids.push(element.id);
+    }
     newState.entities[element.id] = element;
 
     return newState;
