@@ -3,7 +3,7 @@ This project is a fork of the project of [Manu Bhardwaj](https://github.com/iman
 You can access the original project [here](https://github.com/imanubhardwaj/vue-entity-adapter).
 
 
-The difference from this project to the original project, are just a few changes in the definitions for typescript and a small improvement in the ordering logic in the getAll method.
+The difference from this project to the original project, are just a few changes in the definitions for typescript and a small improvement in the ordering logic in the getAll method and in logic in addOne method.
 
 # Introduction
 
