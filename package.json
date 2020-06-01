@@ -1,6 +1,6 @@
 {
   "name": "vue-entity-adapter-plus",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Package to maintain entities for vuex.",
   "private": false,
   "keywords": ["Vue", "Vuex", "State Management", "Entity Adapter", "Flux"],
