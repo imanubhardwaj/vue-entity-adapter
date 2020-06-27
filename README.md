@@ -10,8 +10,6 @@ Extensible type-safe adapters for selecting entity information.
 
 #### [Example](example)
 
-#### [Demo](https://vue-entity-adapter.manubhardwaj.in/)
-
 ## Installation
 Installing with *npm*
 
