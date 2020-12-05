@@ -2963,9 +2963,9 @@ domutils@^1.5.1, domutils@^1.7.0:
     domelementtype "1"
 
 dot-prop@^4.1.1:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/dot-prop/-/dot-prop-4.2.0.tgz#1f19e0c2e1aa0e32797c49799f2837ac6af69c57"
-  integrity sha512-tUMXrxlExSW6U2EXiiKGSBVdYgtV8qlHL+C10TsW4PURY/ic+eaysnSkwB4kA/mBlCyy/IKDJ+Lc3wbWeaXtuQ==
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/dot-prop/-/dot-prop-4.2.1.tgz#45884194a71fc2cda71cbb4bceb3a4dd2f433ba4"
+  integrity sha512-l0p4+mIuJIua0mhxGoh4a+iNL9bmeK5DvnSVQa6T0OhrVmaEa1XScX5Etc673FePCJOArq/4Pa2cLGODUWTPOQ==
   dependencies:
     is-obj "^1.0.0"
 
@@ -8424,10 +8424,10 @@ vue-class-component@^7.0.1, vue-class-component@^7.0.2:
   resolved "https://registry.yarnpkg.com/vue-class-component/-/vue-class-component-7.1.0.tgz#b33efcb10e17236d684f70b1e96f1946ec793e87"
   integrity sha512-G9152NzUkz0i0xTfhk0Afc8vzdXxDR1pfN4dTwE72cskkgJtdXfrKBkMfGvDuxUh35U500g5Ve4xL8PEGdWeHg==
 
-vue-entity-adapter@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/vue-entity-adapter/-/vue-entity-adapter-1.0.2.tgz#821ec5907c0f5156c67e76850793c3eea321578b"
-  integrity sha512-2qPKrEu6mA/e9udBZUO6lWekk0iW64aPmrj23mbKuhO0o+stqlYVp7rN8dKUA8MTMhVk+J39kUhbai1GwgE3zw==
+vue-entity-adapter-plus@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/vue-entity-adapter-plus/-/vue-entity-adapter-plus-1.0.1.tgz#503fdf912beb37dcb08614f78dc08b3eab4a0fb3"
+  integrity sha512-hdn5qAopAjvx3lYNpzw0N6Mi9DdC2GJV74aWvlkrxTKIB6b1IzPtUw2Nt3Zp4xYQ5E5/joaWr4bfozVWtMyaJg==
   dependencies:
     lodash "^4.17.11"
 
