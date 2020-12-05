@@ -1,3 +1,10 @@
+# Note
+This project is a fork of the project of [Manu Bhardwaj](https://github.com/imanubhardwaj), 
+You can access the original project [here](https://github.com/imanubhardwaj/vue-entity-adapter).
+
+
+The difference from this project to the original project, are just a few changes in the definitions for typescript and a small improvement in the ordering logic in the getAll method and in logic in addOne method.
+
 # Introduction
 
 Entity State adapter for managing record collections.
@@ -13,11 +20,7 @@ Extensible type-safe adapters for selecting entity information.
 ## Installation
 Installing with *npm*
 
-``npm i vue-entity-adapter``  
-
-Installing with *yarn*  
-
-``yarn add vue-entity-adapter``
+``npm i vue-entity-adapter-plus``
 
 ## Getting Started
 

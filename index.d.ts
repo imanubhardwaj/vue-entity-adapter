@@ -1,6 +1,6 @@
 /// <reference types="node" />
 
-declare module 'vue-entity-adapter' {
+declare module 'vue-entity-adapter-plus' {
 	export interface EntityState<T> {
 		ids: string[];
 		entities: T[];
@@ -18,7 +18,7 @@ declare module 'vue-entity-adapter' {
 	export type Update<T> = UpdateStr<T> | UpdateNum<T>;
 
 	export class EntityAdapter<T> {
-		constructor(sortFn: Function);
+		constructor(sortFn?: Function);
 
 		public getInitialState(): EntityState<T>;
 		public getOne(id: string, state: EntityState<T>): T;

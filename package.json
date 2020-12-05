@@ -1,6 +1,6 @@
 {
-  "name": "vue-entity-adapter",
-  "version": "1.0.5",
+  "name": "vue-entity-adapter-plus",
+  "version": "1.0.1",
   "description": "Package to maintain entities for vuex.",
   "private": false,
   "keywords": ["Vue", "Vuex", "State Management", "Entity Adapter", "Flux"],
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/imanubhardwaj/vue-entity-adapter.git"
+    "url": "git+https://github.com/sandrohaiden/vue-entity-adapter-plus.git"
   },
   "author": "Manu Bhardwaj",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/imanubhardwaj/vue-entity-adapter/issues"
+    "url": "https://github.com/sandrohaiden/vue-entity-adapter-plus/issues"
   },
-  "homepage": "https://github.com/imanubhardwaj/vue-entity-adapter#readme",
+  "homepage": "https://github.com/sandrohaiden/vue-entity-adapter-plus#readme",
   "devDependencies": {
     "@babel/core": "^7.4.0",
     "@babel/preset-env": "^7.4.2",
