@@ -8424,10 +8424,10 @@ vue-class-component@^7.0.1, vue-class-component@^7.0.2:
   resolved "https://registry.yarnpkg.com/vue-class-component/-/vue-class-component-7.1.0.tgz#b33efcb10e17236d684f70b1e96f1946ec793e87"
   integrity sha512-G9152NzUkz0i0xTfhk0Afc8vzdXxDR1pfN4dTwE72cskkgJtdXfrKBkMfGvDuxUh35U500g5Ve4xL8PEGdWeHg==
 
-vue-entity-adapter@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/vue-entity-adapter/-/vue-entity-adapter-1.0.2.tgz#821ec5907c0f5156c67e76850793c3eea321578b"
-  integrity sha512-2qPKrEu6mA/e9udBZUO6lWekk0iW64aPmrj23mbKuhO0o+stqlYVp7rN8dKUA8MTMhVk+J39kUhbai1GwgE3zw==
+vue-entity-adapter-plus@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/vue-entity-adapter-plus/-/vue-entity-adapter-plus-1.0.1.tgz#503fdf912beb37dcb08614f78dc08b3eab4a0fb3"
+  integrity sha512-hdn5qAopAjvx3lYNpzw0N6Mi9DdC2GJV74aWvlkrxTKIB6b1IzPtUw2Nt3Zp4xYQ5E5/joaWr4bfozVWtMyaJg==
   dependencies:
     lodash "^4.17.11"
 
@@ -8759,9 +8759,9 @@ xtend@^4.0.0, xtend@~4.0.1:
   integrity sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==
 
 y18n@^3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/y18n/-/y18n-3.2.1.tgz#6d15fba884c08679c0d77e88e7759e811e07fa41"
-  integrity sha1-bRX7qITAhnnA136I53WegR4H+kE=
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/y18n/-/y18n-3.2.2.tgz#85c901bd6470ce71fc4bb723ad209b70f7f28696"
+  integrity sha512-uGZHXkHnhF0XeeAPgnKfPv1bgKAYyVvmNL1xlKsPYZPaIHxGti2hHqvOCQv71XMsLxu1QjergkqogUnms5D3YQ==
 
 "y18n@^3.2.1 || ^4.0.0", y18n@^4.0.0:
   version "4.0.0"
