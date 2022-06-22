@@ -7416,9 +7416,9 @@ shebang-regex@^1.0.0:
   integrity sha1-2kL0l0DAtC2yypcoVxyxkMmO/qM=
 
 shell-quote@^1.6.1:
-  version "1.7.1"
-  resolved "https://registry.yarnpkg.com/shell-quote/-/shell-quote-1.7.1.tgz#3161d969886fb14f9140c65245a5dd19b6f0b06b"
-  integrity sha512-2kUqeAGnMAu6YrTPX4E3LfxacH9gKljzVjlkUeSqY0soGwK4KLl7TURXCem712tkhBCeeaFP9QK4dKn88s3Icg==
+  version "1.7.3"
+  resolved "https://registry.yarnpkg.com/shell-quote/-/shell-quote-1.7.3.tgz#aa40edac170445b9a431e17bb62c0b881b9c4123"
+  integrity sha512-Vpfqwm4EnqGdlsBFNmHhxhElJYrdfcxPThu+ryKS5J8L/fhAwLazFZtq+S+TWZ9ANj2piSQLGj6NQg+lKPmxrw==
 
 signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.2"
@@ -8424,10 +8424,10 @@ vue-class-component@^7.0.1, vue-class-component@^7.0.2:
   resolved "https://registry.yarnpkg.com/vue-class-component/-/vue-class-component-7.1.0.tgz#b33efcb10e17236d684f70b1e96f1946ec793e87"
   integrity sha512-G9152NzUkz0i0xTfhk0Afc8vzdXxDR1pfN4dTwE72cskkgJtdXfrKBkMfGvDuxUh35U500g5Ve4xL8PEGdWeHg==
 
-vue-entity-adapter@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/vue-entity-adapter/-/vue-entity-adapter-1.0.2.tgz#821ec5907c0f5156c67e76850793c3eea321578b"
-  integrity sha512-2qPKrEu6mA/e9udBZUO6lWekk0iW64aPmrj23mbKuhO0o+stqlYVp7rN8dKUA8MTMhVk+J39kUhbai1GwgE3zw==
+vue-entity-adapter-plus@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/vue-entity-adapter-plus/-/vue-entity-adapter-plus-1.0.1.tgz#503fdf912beb37dcb08614f78dc08b3eab4a0fb3"
+  integrity sha512-hdn5qAopAjvx3lYNpzw0N6Mi9DdC2GJV74aWvlkrxTKIB6b1IzPtUw2Nt3Zp4xYQ5E5/joaWr4bfozVWtMyaJg==
   dependencies:
     lodash "^4.17.11"
 
